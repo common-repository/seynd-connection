@@ -1,0 +1,107 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Modal css - Start */
+.settings_page_seynd-connection #seyndConnModal #seyndConnectionform .input {
+    font-size: 18px;
+    width: 100%;
+    padding: 2px;
+    margin: 2px 6px 16px 0;
+}	
+
+.settings_page_seynd-connection #seyndConnModal #seyndEmptyDropdown.select,.settings_page_seynd-connection #seyndUpdateSitesDropdown {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    padding: 3px;
+    margin: 2px 5px 5px 0px;
+}
+
+.settings_page_seynd-connection .seynd-div-buttons button {
+    margin: 0 5px 0 0px !important;
+}
+
+.settings_page_seynd-connection #seyndConnModal .seynd-error-msg ,.seynd-connected-error-msg {
+    color: #D8000C;
+}
+
+.settings_page_seynd-connection #seyndConnModal .btn-seyndajax {
+    cursor: pointer;
+}
+/* Modal css - End */
+
+.settings_page_seynd-connection .main-seynd .card{
+    padding: 35px 20px;
+}
+.settings_page_seynd-connection .main-seynd .colarea{
+    margin: 0 5px 0 0px;
+    display: inline-block;
+}
+.settings_page_seynd-connection #seynd-websitelist .select_page_list label{
+    width: 100%;
+    display: inline-block;
+    margin: 3px 0px;
+}
+.settings_page_seynd-connection .seynd_cancel{
+    padding: 5px 10px;
+}
+
+.settings_page_seynd-connection .seynd-loader, .settings_page_seynd-connection .seynd-loader-connected-sites {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 10px;
+    height: 10px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+.settings_page_seynd-connection #seyndConnectionform li label, .settings_page_seynd-connection .seynd-select-site label{
+    margin-bottom: 2px;
+    display: inline-block;
+}
+
+.settings_page_seynd-connection .seynd-select-pages label{
+    display: block;
+    margin: 10px 0;
+}
+.settings_page_seynd-connection .seynd-select-pages label input{
+    margin-right: 6px;
+}
+.settings_page_seynd-connection .seynd-select-posts{
+    margin: 10px 0;
+}
+.settings_page_seynd-connection .seynd-connected-select_page_list label{
+    display: block;
+    margin: 10px 0;
+}
+.settings_page_seynd-connection .seynd-logo, .settings_page_seynd-connection .seynd-signup-free {
+    text-align: center;
+    margin: 20px 0;  
+}
+
+.settings_page_seynd-connection .seynd-signup-free button{
+    width: 150px;
+    height: 38px;
+    font-size: 15px;
+}
+#seynd_btnRefresh_site{
+    cursor: pointer;
+    float: right;
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
